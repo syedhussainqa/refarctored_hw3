@@ -38,7 +38,6 @@ def main():
         template = read_files()
          #reading the html pages
         final_content = read_input(page)
-
          #combining the base with content
         finished_index_page = template.replace("{{content}}", final_content)
         final_merge(page, finished_index_page)
